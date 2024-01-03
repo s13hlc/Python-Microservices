@@ -14,3 +14,4 @@ Building the docker image using Dockerfile
 Writing Docker Compose file
 Writing Kubernetes Manifest files for the application
 Creating Helm Chart
+Running containerized Python webapp in OpenShift
