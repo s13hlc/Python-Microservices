@@ -19,7 +19,7 @@ def health():
     )
 @app.route("/details")
 def details():
-    hostname, ip = fetchDetails()
+    hostname, ip = fetchDetails() #tuple unpacking
     return render_template('index.html', HOSTNAME=hostname, IP=ip)
 
 if __name__ == '__main__':

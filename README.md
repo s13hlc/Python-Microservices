@@ -14,3 +14,6 @@ Building the docker image using Dockerfile
 Writing Docker Compose file
 Writing Kubernetes Manifest files for the application
 Creating Helm Chart
+
+python -a venv pyK8s-env
+.\PyK8s-env\Scripts\activate
